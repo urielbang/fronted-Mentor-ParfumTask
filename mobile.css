@@ -7,11 +7,12 @@ body {
   font-size: 14px;
 }
 .container {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
 
   justify-content: center;
+  overflow: hidden;
 }
 .attribution {
   display: none;
@@ -24,7 +25,7 @@ body {
   height: 93%;
   flex-direction: column;
 
-  overflow-y: hidden;
+  overflow: hidden;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
 }
@@ -40,4 +41,64 @@ body {
   justify-content: space-around;
   width: 100%;
   height: 60%;
+}
+.txt span,
+.txt p {
+  margin-left: 5%;
+}
+@font-face {
+  font-family: spanFont;
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: txtFont;
+  src: url(fonts/Fraunces_144pt-Bold.ttf);
+}
+.txtprfume {
+  letter-spacing: 5px;
+
+  font-family: spanFont;
+  color: rgba(0, 0, 0, 0.676);
+}
+.Gabrielle {
+  font-family: txtFont;
+  font-size: 30px;
+  margin-right: 15%;
+}
+.txtSpan {
+  font-family: spanFont;
+  color: rgba(0, 0, 0, 0.676);
+  margin-right: 7%;
+}
+.prices {
+  display: flex;
+  gap: 5%;
+  justify-content: start;
+  align-items: center;
+  height: 5%;
+}
+.priceGreen {
+  font-family: txtFont;
+  font-size: 36px;
+  color: hsl(158, 36%, 37%);
+}
+.smalltxt {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.676);
+  font-family: spanFont;
+  font-size: 12px;
+}
+.btn {
+  display: flex;
+  width: 100%;
+  height: 6vh;
+  justify-content: center;
+}
+.btn div {
+  background-color: hsl(158, 36%, 37%);
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
 }

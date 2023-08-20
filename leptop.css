@@ -96,9 +96,8 @@ body {
 
   margin-bottom: 5%;
   border-radius: 5%;
-
+  justify-content: flex-start;
   height: 15%;
-  justify-content: center;
 }
 .btn div {
   width: 70%;
