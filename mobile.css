@@ -1,0 +1,43 @@
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  margin: 0;
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+}
+.attribution {
+  display: none;
+}
+.card {
+  display: flex;
+  margin-top: 5%;
+
+  width: 90%;
+  height: 93%;
+  flex-direction: column;
+
+  overflow-y: hidden;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+}
+.imgParfum {
+  width: 100%;
+  height: 40%;
+  background-image: url(images/image-product-mobile.jpg);
+  background-size: cover;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 60%;
+}
